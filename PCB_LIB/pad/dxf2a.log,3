@@ -1,0 +1,36 @@
+Reading Layer Conversion File 
+Reading DXF file...
+NOTE: Replacing illegal character * with X in *Model_Space.
+NOTE: Replacing illegal character * with X in *Paper_Space.
+NOTE: Replacing illegal character * with X in *Paper_Space0.
+done.
+
+ERROR: ERROR(SPMHDB-182): 'LINE' object may not exist on class 'BOARD GEOMETRY'.
+ERROR: Failed to add (LW)POLYLINE
+  on BOARD GEOMETRY / 0
+  LWPOLYLINE on line number 2040
+WARNING: Ignoring zero length segment at (4.8780, 4.5481)
+
+ERROR: ERROR(SPMHDB-182): 'LINE' object may not exist on class 'BOARD GEOMETRY'.
+ERROR: Failed to add (LW)POLYLINE
+  on BOARD GEOMETRY / 0
+  LWPOLYLINE on line number 2066
+
+ERROR: ERROR(SPMHDB-182): 'SHAPE' object may not exist on class 'BOARD GEOMETRY'.
+ERROR: Failed to add (LW)POLYLINE
+  on BOARD GEOMETRY / 0
+  LWPOLYLINE on line number 2100
+
+ERROR: ERROR(SPMHDB-182): 'SHAPE' object may not exist on class 'BOARD GEOMETRY'.
+ERROR: Failed to add (LW)POLYLINE
+  on BOARD GEOMETRY / 0
+  LWPOLYLINE on line number 2192
+Layer conversion file: D:/MyWork/MyProgram/Omni/Omni902/Device/AD14/Key_l.cnv
+DXF file: D:/MyWork/MyProgram/Omni/Omni902/Device/AD14/Key.dxf
+BRD file: E:/Cadence_Lib/PCB_LIB/pad/#Taaaaaa09196.dra
+Update existing design?: YES
+Use default text?: NO
+DXF units: MILLIMETERS
+Design units: MILLIMETERS
+Design precision: 4
+dxf2a complete.

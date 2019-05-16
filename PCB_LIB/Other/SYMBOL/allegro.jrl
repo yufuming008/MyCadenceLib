@@ -1,0 +1,15 @@
+\t (00:00:04) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:04)     Journal start - Thu Aug 24 16:27:06 2017
+\t (00:00:04)         Host=LENOVO-PC User=tydfr Pid=18092 CPUs=4
+\t (00:00:04) 
+\t (00:00:06) Starting new design...
+\i (00:00:07) trapsize 1623
+\i (00:00:07) trapsize 1551
+\i (00:00:07) trapsize 1636
+\i (00:00:07) trapsize 1672
+\i (00:00:07) trapsize 1201
+\i (00:00:07) trapsize 1201
+\i (00:00:07) generaledit 
+\i (00:00:10) new 
+\i (00:00:50) newdrawfillin "glassLock_USBboard.brd" "Board"
+\t (00:00:50)     Journal end - Thu Aug 24 16:27:52 2017

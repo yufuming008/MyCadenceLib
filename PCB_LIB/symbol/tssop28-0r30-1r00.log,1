@@ -1,0 +1,25 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : TSSOP28-0R30-1R00.dra                         )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Mon Sep 18 17:52:49 2017                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = E:/Cadence_Lib/PCB_LIB/symbol
+    Name      = tssop28-0r30-1r00.psm
+    User      = tydfr
+    Machine   = LENOVO-PC
+
+
+Create symbol started.
+ 
+ ERROR(SPMHCS-1): Symbol is missing a refdes. 
+ ERROR(SPMHCS-1): Symbol is missing a refdes. 
+
+ERROR(SPMHA1-291): Create symbol has been aborted.
+

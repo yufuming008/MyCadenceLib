@@ -1,0 +1,43 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : BZAJ.dra                                      )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Thu Jan 25 20:18:33 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: FORMAT
+    Directory = E:/Cadence_Lib/PCB_LIB/pad
+    Name      = bzaj.osm
+    User      = tydfr
+    Machine   = LENOVO-PC
+
+
+Create symbol started.
+ 
+ ERROR(SPMHA1-98): Illegal element class. 94415440 
+SHAPE        @94415440
+1)  mask              = 40
+2)  class             = 6 = ETCH
+3)  subclass          = 0 = TOP
+4)  branch_link       = 94415416
+5)  branch_ptr        = 94415416
+6)  symbol_ins_link   = 0
+7)  first_connection       = 0
+8)  first_void        = 0
+9)  first_outline_seg = 94415512
+10) first_patch_set   = 0
+11) shape_fill        = 1
+12) first_text        = 0
+13) first_relation    = 0
+14) extents.min       = (70000, 42500)
+15) extents.max       = (120000, 87500)
+16) prev_branch_item  = 94415416
+
+ ERROR(SPMHA1-98): Illegal element class. 
+
+ERROR(SPMHA1-291): Create symbol has been aborted.
+

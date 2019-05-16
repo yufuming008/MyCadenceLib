@@ -1,0 +1,35 @@
+\t (00:00:01) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:01)     Journal start - Thu Aug 24 14:32:16 2017
+\t (00:00:01)         Host=LENOVO-PC User=tydfr Pid=296 CPUs=4
+\t (00:00:01) 
+\t (00:00:03) Opening existing design...
+\i (00:00:04) fillin yes 
+\d (00:00:04) Database opened: E:/Cadence_Lib/PCB_LIB/Other/SYMBOL/f120_160_060.dra
+\i (00:00:05) trapsize 3303
+\i (00:00:05) trapsize 3242
+\i (00:00:05) trapsize 3313
+\i (00:00:05) trapsize 2873
+\i (00:00:05) trapsize 6304
+\i (00:00:05) generaledit 
+\i (00:00:06) zoom in 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom in -9.456 -11.977
+\i (00:00:06) trapsize 3152
+\i (00:00:07) zoom out 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom out -213.703 -15.129
+\i (00:00:07) trapsize 6304
+\i (00:00:07) zoom out 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom out 116.623 -37.193
+\i (00:00:07) trapsize 6304
+\i (00:00:08) trapsize 6710
+\i (00:00:09) trapsize 6372
+\i (00:00:10) pick grid -127.439 144.006
+\t (00:00:10) last pick:  -125.000  150.000
+\i (00:00:22) pick grid -70.092 374.671
+\t (00:00:22) last pick:  -75.000  375.000
+\i (00:00:46) exit 
+\e (00:00:46) Do you want to save the changes you made to f120_160_060.dra?
+\i (00:00:47) fillin no 
+\t (00:00:47)     Journal end - Thu Aug 24 14:33:03 2017

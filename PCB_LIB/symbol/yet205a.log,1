@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : YET205A.dra                                   )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Tue Jan 30 10:03:05 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = E:/Cadence_Lib/PCB_LIB/symbol
+    Name      = yet205a.psm
+    User      = tydfr
+    Machine   = LENOVO-PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

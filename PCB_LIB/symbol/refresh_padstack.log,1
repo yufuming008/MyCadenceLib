@@ -1,0 +1,85 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Padstack                                                 )
+(                                                                     )
+(    Drawing          : THC_4PC_2_00.dra                              )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Fri Jan 26 11:58:04 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Fri Jan 26 11:58:04 2018				Page     1
+
+
+------ Pad Stack Refresh Options ------
+
+Input design = 'E:/Cadence_Lib/PCB_LIB/symbol/THC_4PC_2_00.dra'
+Output design = ''
+Reset symbol text and size locations = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/Cadence/SPB_16.6/share/local/pcb/symbols 
+           D:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
+           D:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+           E:/Cadence_Lib/PCB_LIB/symbol/ 
+           E:/Cadence_Lib/PCB_LIB/pad/ 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/Cadence/SPB_16.6/share/local/pcb/padstacks 
+           D:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
+           D:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+           E:/Cadence_Lib/PCB_LIB/pad/ 
+
+
+------ Pad Stack Refresh Messages ------
+
+'THQS1R30C1R65D1R00'  pad stack refresh starting.
+
+     'THQS1R30C1R65D1R00'  pad stack refreshed successfully.
+     
+'THQK1R30C1R65D1R00'  pad stack refresh starting.
+
+     'THQK1R30C1R65D1R00'  pad stack refreshed successfully.
+     
+'THS1R65D1R00'  pad stack refresh starting.
+
+     'THS1R65D1R00'  pad stack refreshed successfully.
+     
+'THC1R40D1R00'  pad stack refresh starting.
+
+     'THC1R40D1R00'  pad stack refreshed successfully.
+     
+'SMD1R20X4R00'  pad stack refresh starting.
+
+     'SMD1R20X4R00'  pad stack refreshed successfully.
+     
+'SMD1R20X3R50'  pad stack refresh starting.
+
+     'SMD1R20X3R50'  pad stack refreshed successfully.
+     
+'SMD1R10X2R20'  pad stack refresh starting.
+
+     'SMD1R10X2R20'  pad stack refreshed successfully.
+     
+'SMD0R80X2R50'  pad stack refresh starting.
+
+     'SMD0R80X2R50'  pad stack refreshed successfully.
+     
+'R30X21'  pad stack refresh starting.
+
+     'R30X21'  pad stack refreshed successfully.
+     
+'R17X08'  pad stack refresh starting.
+
+     'R17X08'  pad stack refreshed successfully.
+     
+Completed refreshing all pad stacks successfully.

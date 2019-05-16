@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : MTG7R00.dra                                   )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Sat Sep 02 14:04:42 2017                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: MECHANICAL
+    Directory = E:/Cadence_Lib/PCB_LIB/symbol
+    Name      = mtg7r00.bsm
+    User      = tydfr
+    Machine   = LENOVO-PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : Button_4P6X6.dra                              )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Fri Sep 01 16:00:04 2017                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = E:/Cadence_Lib/PCB_LIB/symbol
+    Name      = button_4p6x6.psm
+    User      = tydfr
+    Machine   = LENOVO-PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

@@ -1,0 +1,21 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    DBDOCTOR                                                         )
+(                                                                     )
+(    Drawing          : Omni902.brd                                   )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Tue Jan 30 21:11:41 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+Number of Xnets before update: 0        after update: 0
+Number of Diff Pairs before update: 0   after update: 0
+
+Regenerating DRC
+  Original DRC errors:   20
+  Updated DRC errors:    20
+  DRC elapsed time:      00:00:01
+
+0 warnings, 0 errors detected, 0 errors  fixed.

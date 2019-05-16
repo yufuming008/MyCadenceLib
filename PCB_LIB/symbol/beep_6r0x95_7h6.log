@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : Beep_6R0X95_7H6.dra                           )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Wed Jan 31 16:37:17 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = E:/Cadence_Lib/PCB_LIB/symbol
+    Name      = beep_6r0x95_7h6.psm
+    User      = tydfr
+    Machine   = LENOVO-PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

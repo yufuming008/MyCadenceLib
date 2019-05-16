@@ -1,0 +1,33 @@
+Reading Layer Conversion File 
+Reading DXF file...
+NOTE: Replacing illegal character * with X in *Model_Space.
+NOTE: Replacing illegal character * with X in *Paper_Space.
+NOTE: Replacing illegal character * with X in *Paper_Space0.
+NOTE: Replacing illegal character * with X in *D3.
+NOTE: Replacing illegal character * with X in *D4.
+done.
+
+ERROR: ERROR(SPMHDB-182): 'LINE' object may not exist on class 'BOARD GEOMETRY'.
+ERROR: Failed to add (LW)POLYLINE
+  on BOARD GEOMETRY / TOPLAYER
+  LWPOLYLINE on line number 2814
+WARNING: Ignoring zero length segment at (10.2045, 11.8076)
+
+ERROR: ERROR(SPMHDB-182): 'LINE' object may not exist on class 'BOARD GEOMETRY'.
+ERROR: Failed to add (LW)POLYLINE
+  on BOARD GEOMETRY / TOPLAYER
+  LWPOLYLINE on line number 2942
+
+ERROR: ERROR(SPMHDB-182): 'LINE' object may not exist on class 'BOARD GEOMETRY'.
+ERROR: Failed to add (LW)POLYLINE
+  on BOARD GEOMETRY / TOPLAYER
+  LWPOLYLINE on line number 2988
+Layer conversion file: C:/Users/tydfr/Desktop/Drawing1_l.cnv
+DXF file: C:/Users/tydfr/Desktop/Drawing1.dxf
+BRD file: E:/Cadence_Lib/PCB_LIB/pad/#Taaaaad16792.dra
+Update existing design?: NO
+Use default text?: NO
+DXF units: MILLIMETERS
+Design units: MILLIMETERS
+Design precision: 4
+dxf2a complete.

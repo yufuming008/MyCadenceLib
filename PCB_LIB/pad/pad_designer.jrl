@@ -1,0 +1,9 @@
+\t (00:00:00) pad_designer 16.6 P001 (v16-6-112A) Windows 32
+\t (00:00:00)     Journal start - Sat Jun 09 16:19:01 2018
+\t (00:00:00)         Host=LENOVO-PC User=tydfr Pid=13268 CPUs=4
+\t (00:00:00) 
+\i (00:00:01) setwindow form.padedit
+\i (00:00:01) FORM padedit layers  
+\i (00:00:05) FORM padedit parameters  
+\i (00:00:07) pse_exit
+\t (00:00:07)     Journal end - Sat Jun 09 16:19:08 2018

@@ -1,0 +1,2593 @@
+( ConstraintFile "glassLock_MAINboard_V30IC"
+	( constraintHeader
+		( objectKey
+			( physical )
+		)
+		( version
+			( 16.6 )
+		)
+		( revisionNumber
+			( logicalViewRevNum 0 )
+			( physicalViewRevNum 0 )
+			( otherViewRevNum 0 )
+		)
+		( contents
+			( opFlags )
+			( dictionaryExtensions )
+			( worksheetCustomizations )
+			( crossSection )
+			( electricalConstraints )
+			( physicalConstraints )
+			( spacingConstraints )
+			( sameNetSpacingConstraints )
+			( functions )
+			( properties )
+		)
+		( precision
+			( units mil )
+			( numberOfDecimalPlaces 3 )
+		)
+	)
+	( DictionaryExtensions
+	)
+	( Functions
+	)
+	( crossSection
+		( layer "SURFACE_INDEX_0"
+			( attribute "CDS_LAYER_TYPE" "SURFACE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "AIR"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "1.000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.0000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.0000"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+		)
+		( layer "TOP"
+			( attribute "CDS_LAYER_IS_NAMED" "1"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_TYPE" "CONDUCTOR"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "COPPER"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "1.200"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.0000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.0000"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_TOP_SUBSTRATE" "1"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_EMBEDDED_STATUS" "NOT_EMBEDDED"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "DIELECTRIC_BELOW_TOP"
+			( attribute "CDS_LAYER_TYPE" "DIELECTRIC"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "FR-4"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "8.000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.0000"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+		)
+		( layer "BOTTOM"
+			( attribute "CDS_LAYER_IS_NAMED" "1"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_TYPE" "CONDUCTOR"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "COPPER"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "1.200"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.0000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.0000"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_BOTTOM_SUBSTRATE" "1"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_EMBEDDED_STATUS" "NOT_EMBEDDED"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "SURFACE_BELOW_BOTTOM"
+			( attribute "CDS_LAYER_TYPE" "SURFACE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "AIR"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "1.000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.0000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.0000"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+		)
+	)
+	( opFlags
+		( attribute "MAX_XTALK_VMODE" "OFF"
+		)
+		( attribute "MAX_PEAK_XTALK_VMODE" "OFF"
+		)
+		( attribute "IMPEDANCE_RULE_VMODE" "OFF"
+		)
+		( attribute "STUB_LENGTH_VMODE" "OFF"
+		)
+		( attribute "MAX_VIA_COUNT_VMODE" "OFF"
+		)
+		( attribute "MATCH_VIA_COUNT_VMODE" "OFF"
+		)
+		( attribute "MAX_EXPOSED_LENGTH_VMODE" "OFF"
+		)
+		( attribute "MAX_PARALLEL_VMODE" "OFF"
+		)
+		( attribute "LAYERSET_GROUP_VMODE" "OFF"
+		)
+		( attribute "PROPAGATION_DELAY_MIN_VMODE" "ON"
+		)
+		( attribute "TOTAL_ETCH_LENGTH_MIN_VMODE" "OFF"
+		)
+		( attribute "RELATIVE_PROPAGATION_DELAY_VMODE" "OFF"
+		)
+		( attribute "DIFFP_PRIMARY_GAP_VMODE" "OFF"
+		)
+		( attribute "MIN_LINE_WIDTH_VMODE" "ON"
+		)
+		( attribute "MAX_LINE_WIDTH_VMODE" "ON"
+		)
+		( attribute "DRC_UNROUTED_MINPROP" "N"
+		)
+		( attribute "DRC_UNROUTED_RELPROP" "N"
+		)
+		( attribute "PIN_DELAY_PVF" "1.524e+08 m/s"
+		)
+		( attribute "PIN_DELAY_ENABLED" "N"
+		)
+		( attribute "VIA_Z_PVF" "1.524e+08 m/s"
+		)
+		( attribute "VIA_Z_ENABLED" "N"
+		)
+		( attribute "SAME_NET_XTALK_ENABLED" "N"
+		)
+		( attribute "ALLOW_ON_ETCH_SUBCLASS_VMODE" "ON"
+		)
+		( attribute "TS_ALLOWED_VMODE" "ON"
+		)
+		( attribute "MIN_BVIA_STAGGER_VMODE" "ON"
+		)
+		( attribute "MAX_BVIA_STAGGER_VMODE" "OFF"
+		)
+		( attribute "PAD_PAD_DIRECT_CONNECT_VMODE" "OFF"
+		)
+		( attribute "THRUPIN_TO_THRUPIN_SPACING_VMODE" "ON"
+		)
+		( attribute "THRUPIN_TO_SMDPIN_SPACING_VMODE" "ON"
+		)
+		( attribute "TESTPIN_TO_THRUPIN_SPACING_VMODE" "ON"
+		)
+		( attribute "THRUPIN_TO_THRUVIA_SPACING_VMODE" "ON"
+		)
+		( attribute "TESTVIA_TO_THRUPIN_SPACING_VMODE" "ON"
+		)
+		( attribute "BBV_TO_THRUPIN_SPACING_VMODE" "ON"
+		)
+		( attribute "THRUPIN_TO_BONDPAD_SPACING_VMODE" "ON"
+		)
+		( attribute "LINE_TO_THRUPIN_SPACING_VMODE" "ON"
+		)
+		( attribute "THRUPIN_TO_SHAPE_SPACING_VMODE" "ON"
+		)
+		( attribute "SMDPIN_TO_SMDPIN_SPACING_VMODE" "ON"
+		)
+		( attribute "SMDPIN_TO_TESTPIN_SPACING_VMODE" "ON"
+		)
+		( attribute "SMDPIN_TO_THRUVIA_SPACING_VMODE" "ON"
+		)
+		( attribute "SMDPIN_TO_TESTVIA_SPACING_VMODE" "ON"
+		)
+		( attribute "BBV_TO_SMDPIN_SPACING_VMODE" "ON"
+		)
+		( attribute "SMDPIN_TO_BONDPAD_SPACING_VMODE" "ON"
+		)
+		( attribute "LINE_TO_SMDPIN_SPACING_VMODE" "ON"
+		)
+		( attribute "SHAPE_TO_SMDPIN_SPACING_VMODE" "ON"
+		)
+		( attribute "TESTPIN_TO_TESTPIN_SPACING_VMODE" "ON"
+		)
+		( attribute "TESTPIN_TO_THRUVIA_SPACING_VMODE" "ON"
+		)
+		( attribute "TESTPIN_TO_TESTVIA_SPACING_VMODE" "ON"
+		)
+		( attribute "BBV_TO_TESTPIN_SPACING_VMODE" "ON"
+		)
+		( attribute "BONDPAD_TO_TESTPIN_SPACING_VMODE" "ON"
+		)
+		( attribute "LINE_TO_TESTPIN_SPACING_VMODE" "ON"
+		)
+		( attribute "SHAPE_TO_TESTPIN_SPACING_VMODE" "ON"
+		)
+		( attribute "THRUVIA_TO_THRUVIA_SPACING_VMODE" "ON"
+		)
+		( attribute "TESTVIA_TO_THRUVIA_SPACING_VMODE" "ON"
+		)
+		( attribute "BBV_TO_THRUVIA_SPACING_VMODE" "ON"
+		)
+		( attribute "BONDPAD_TO_THRUVIA_SPACING_VMODE" "ON"
+		)
+		( attribute "LINE_TO_THRUVIA_SPACING_VMODE" "ON"
+		)
+		( attribute "SHAPE_TO_THRUVIA_SPACING_VMODE" "ON"
+		)
+		( attribute "TESTVIA_TO_TESTVIA_SPACING_VMODE" "ON"
+		)
+		( attribute "BBV_TO_TESTVIA_SPACING_VMODE" "ON"
+		)
+		( attribute "BONDPAD_TO_TESTVIA_SPACING_VMODE" "ON"
+		)
+		( attribute "LINE_TO_TESTVIA_SPACING_VMODE" "ON"
+		)
+		( attribute "SHAPE_TO_TESTVIA_SPACING_VMODE" "ON"
+		)
+		( attribute "BBV_TO_BBV_SPACING_VMODE" "ON"
+		)
+		( attribute "BONDPAD_TO_BBV_SPACING_VMODE" "ON"
+		)
+		( attribute "BBV_TO_LINE_SPACING_VMODE" "ON"
+		)
+		( attribute "BBV_TO_SHAPE_SPACING_VMODE" "ON"
+		)
+		( attribute "BONDPAD_TO_BONDPAD_SPACING_VMODE" "ON"
+		)
+		( attribute "BONDPAD_TO_LINE_SPACING_VMODE" "ON"
+		)
+		( attribute "BONDPAD_TO_SHAPE_SPACING_VMODE" "ON"
+		)
+		( attribute "LINE_TO_LINE_SPACING_VMODE" "ON"
+		)
+		( attribute "LINE_TO_SHAPE_SPACING_VMODE" "ON"
+		)
+		( attribute "SHAPE_TO_SHAPE_SPACING_VMODE" "ON"
+		)
+		( attribute "HOLE_TO_PIN_SPACING_VMODE" "OFF"
+		)
+		( attribute "HOLE_TO_VIA_SPACING_VMODE" "OFF"
+		)
+		( attribute "HOLE_TO_LINE_SPACING_VMODE" "OFF"
+		)
+		( attribute "HOLE_TO_SHAPE_SPACING_VMODE" "OFF"
+		)
+		( attribute "HOLE_TO_HOLE_SPACING_VMODE" "OFF"
+		)
+		( attribute "MVIA_TO_MVIA_SPACING_VMODE" "ON"
+		)
+		( attribute "MVIA_TO_THRUPIN_SPACING_VMODE" "ON"
+		)
+		( attribute "MVIA_TO_SMDPIN_SPACING_VMODE" "ON"
+		)
+		( attribute "MVIA_TO_THRUVIA_SPACING_VMODE" "ON"
+		)
+		( attribute "MVIA_TO_BBV_SPACING_VMODE" "ON"
+		)
+		( attribute "MVIA_TO_LINE_SPACING_VMODE" "ON"
+		)
+		( attribute "MVIA_TO_SHAPE_SPACING_VMODE" "ON"
+		)
+		( attribute "MVIA_TO_TESTPIN_SPACING_VMODE" "ON"
+		)
+		( attribute "MVIA_TO_TESTVIA_SPACING_VMODE" "ON"
+		)
+		( attribute "BONDPAD_TO_MVIA_SPACING_VMODE" "ON"
+		)
+		( attribute "MIN_BVIA_GAP_VMODE" "ON"
+		)
+		( attribute "SN_THRUPIN_TO_THRUPIN_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_THRUPIN_TO_SMDPIN_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_TESTPIN_TO_THRUPIN_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_THRUPIN_TO_THRUVIA_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_TESTVIA_TO_THRUPIN_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_BBV_TO_THRUPIN_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_THRUPIN_TO_BONDPAD_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_LINE_TO_THRUPIN_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_THRUPIN_TO_SHAPE_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_SMDPIN_TO_SMDPIN_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_SMDPIN_TO_TESTPIN_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_SMDPIN_TO_THRUVIA_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_SMDPIN_TO_TESTVIA_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_BBV_TO_SMDPIN_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_SMDPIN_TO_BONDPAD_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_LINE_TO_SMDPIN_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_SHAPE_TO_SMDPIN_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_TESTPIN_TO_TESTPIN_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_TESTPIN_TO_THRUVIA_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_TESTPIN_TO_TESTVIA_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_BBV_TO_TESTPIN_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_BONDPAD_TO_TESTPIN_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_LINE_TO_TESTPIN_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_SHAPE_TO_TESTPIN_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_THRUVIA_TO_THRUVIA_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_TESTVIA_TO_THRUVIA_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_BBV_TO_THRUVIA_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_BONDPAD_TO_THRUVIA_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_LINE_TO_THRUVIA_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_SHAPE_TO_THRUVIA_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_TESTVIA_TO_TESTVIA_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_BBV_TO_TESTVIA_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_BONDPAD_TO_TESTVIA_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_LINE_TO_TESTVIA_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_SHAPE_TO_TESTVIA_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_BBV_TO_BBV_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_BONDPAD_TO_BBV_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_BBV_TO_LINE_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_BBV_TO_SHAPE_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_BONDPAD_TO_BONDPAD_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_BONDPAD_TO_LINE_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_BONDPAD_TO_SHAPE_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_LINE_TO_LINE_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_LINE_TO_SHAPE_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_SHAPE_TO_SHAPE_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_HOLE_TO_PIN_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_HOLE_TO_VIA_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_HOLE_TO_LINE_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_HOLE_TO_SHAPE_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_HOLE_TO_HOLE_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_MVIA_TO_MVIA_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_MVIA_TO_THRUPIN_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_MVIA_TO_SMDPIN_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_MVIA_TO_THRUVIA_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_MVIA_TO_BBV_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_MVIA_TO_LINE_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_MVIA_TO_SHAPE_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_MVIA_TO_TESTPIN_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_MVIA_TO_TESTVIA_SPACING_VMODE" "OFF"
+		)
+		( attribute "SN_BONDPAD_TO_MVIA_SPACING_VMODE" "OFF"
+		)
+		( attribute "BONDPAD_TO_BONDPAD_DIFFP_SPC_VMODE" "OFF"
+		)
+		( attribute "PACKAGE_PACKAGE_VMODE" "ON"
+		)
+		( attribute "PACKAGE_KEEPIN_VMODE" "ON"
+		)
+		( attribute "PACKAGE_KEEPOUT_VMODE" "ON"
+		)
+		( attribute "ROOM_TYPE_VMODE" "ON"
+		)
+		( attribute "PACKAGE_TO_CAVITY_SPACING_VMODE" "OFF"
+		)
+		( attribute "PACKAGE_TO_LAYER_SPACING_VMODE" "OFF"
+		)
+		( attribute "SHAPE_ISLAND_OVERSIZE_VMODE" "OFF"
+		)
+		( attribute "SOLDERMASK_ALIGNMENT_VMODE" "OFF"
+		)
+		( attribute "SOLDERMASK_SPACING_VMODE" "OFF"
+		)
+		( attribute "SOLDERMASK_CLINE_SPACING_VMODE" "OFF"
+		)
+		( attribute "SOLDERMASK_SHAPE_SPACING_VMODE" "OFF"
+		)
+		( attribute "TPPAD_CMP_SPACING_VMODE" "OFF"
+		)
+		( attribute "TPLOC_CMP_SPACING_VMODE" "OFF"
+		)
+		( attribute "TESTPOINT_ALLOW_UNDER_VMODE" "OFF"
+		)
+		( attribute "MECH_PIN_TO_MECH_PIN_SPACING_VMODE" "OFF"
+		)
+		( attribute "MECH_PIN_TO_CONDUCTOR_SPACING_VMODE" "OFF"
+		)
+		( attribute "VIA_AT_SMD_VMODE" "OFF"
+		)
+		( attribute "VIA_AT_SMD_FIT_VMODE" "OFF"
+		)
+		( attribute "VIA_AT_SMD_THRU_VMODE" "OFF"
+		)
+		( attribute "ETCH_TURN_UNDER_PAD_VMODE" "OFF"
+		)
+		( attribute "PASTEMASK_SPACING_VMODE" "OFF"
+		)
+		( attribute "NEGATIVE_PLANE_SLIVER_SPACING_VMODE" "OFF"
+		)
+		( attribute "VIA_LIST_VMODE" "OFF"
+		)
+		( attribute "PIN_TO_ROUTE_KEEPOUT_VMODE" "OFF"
+		)
+		( attribute "MIN_METAL_SPACING_VMODE" "OFF"
+		)
+		( attribute "DUP_DRILL_HOLE_VMODE" "OFF"
+		)
+		( attribute "MAXIMUM_CAVITY_SIZE_VMODE" "OFF"
+		)
+		( attribute "MAXIMUM_CAVITY_COMPONENT_COUNT_VMODE" "OFF"
+		)
+	)
+	( designConstraints
+		( ruleChanges
+			( allRules )
+			( design "glassLock_MAINboard_V30IC"
+				( physicalCSetRef "DEFAULT" )
+				( spacingCSetRef "DEFAULT" )
+				( sameNetSpacingCSetRef "DEFAULT" )
+			)
+			( physicalCSet "POWER"
+				( attribute "MIN_LINE_WIDTH" "10.000,10.000"
+					( Origin gBackEnd )
+				)
+				( attribute "DIFFP_PRIMARY_GAP" "12.000,12.000"
+					( Origin gBackEnd )
+				)
+				( attribute "DIFFP_COUPLED_PLUS" "12.000,12.000"
+					( Origin gBackEnd )
+				)
+				( attribute "DIFFP_COUPLED_MINUS" "12.000,12.000"
+					( Origin gBackEnd )
+				)
+				( attribute "MIN_BVIA_STAGGER" "12.000,12.000"
+					( Origin gBackEnd )
+				)
+				( attribute "DIFFP_MIN_SPACE" "12.000,12.000"
+					( Origin gBackEnd )
+				)
+				( attribute "TS_ALLOWED" "ANYWHERE,ANYWHERE"
+					( Origin gBackEnd )
+				)
+				( attribute "MIN_NECK_WIDTH" "10.000,10.000"
+					( Origin gBackEnd )
+				)
+				( attribute "ALLOW_ON_ETCH_SUBCLASS" "TRUE,TRUE"
+					( Origin gBackEnd )
+				)
+				( attribute "MAXIMUM_NECK_LENGTH" "12.000,12.000"
+					( Origin gBackEnd )
+				)
+				( attribute "PAD_PAD_DIRECT_CONNECT" "ALL_ALLOWED,ALL_ALLOWED"
+					( Origin gBackEnd )
+				)
+				( attribute "MAX_LINE_WIDTH" "40.000,40.000"
+					( Origin gBackEnd )
+				)
+				( attribute "MAX_BVIA_STAGGER" "12.000,12.000"
+					( Origin gBackEnd )
+				)
+				( attribute "VIA_LIST" "VIA0R55D0R30,VIA"
+					( Origin gBackEnd )
+				)
+				( attribute "DIFFP_NECK_GAP" "12.000,12.000"
+					( Origin gBackEnd )
+				)
+			)
+			( physicalCSet "DEFAULT"
+				( attribute "MIN_LINE_WIDTH" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "DIFFP_PRIMARY_GAP" "0.000,0.000"
+					( Origin gBackEnd )
+				)
+				( attribute "DIFFP_COUPLED_PLUS" "0.000,0.000"
+					( Origin gBackEnd )
+				)
+				( attribute "DIFFP_COUPLED_MINUS" "0.000,0.000"
+					( Origin gBackEnd )
+				)
+				( attribute "MIN_BVIA_STAGGER" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "DIFFP_MIN_SPACE" "0.000,0.000"
+					( Origin gBackEnd )
+				)
+				( attribute "TS_ALLOWED" "ANYWHERE,ANYWHERE"
+					( Origin gBackEnd )
+				)
+				( attribute "MIN_NECK_WIDTH" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "ALLOW_ON_ETCH_SUBCLASS" "TRUE,TRUE"
+					( Origin gBackEnd )
+				)
+				( attribute "MAXIMUM_NECK_LENGTH" "0.000,0.000"
+					( Origin gBackEnd )
+				)
+				( attribute "PAD_PAD_DIRECT_CONNECT" "ALL_ALLOWED,ALL_ALLOWED"
+					( Origin gBackEnd )
+				)
+				( attribute "MAX_LINE_WIDTH" "40.000,40.000"
+					( Origin gBackEnd )
+				)
+				( attribute "MAX_BVIA_STAGGER" "0.000,0.000"
+					( Origin gBackEnd )
+				)
+				( attribute "VIA_LIST" "VIA0R55D0R30,VIA"
+					( Origin gBackEnd )
+				)
+				( attribute "DIFFP_NECK_GAP" "0.000,0.000"
+					( Origin gBackEnd )
+				)
+			)
+			( spacingCSet "DEFAULT"
+				( attribute "TESTPIN_TO_THRUPIN_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SHAPE_TO_TESTVIA_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "THRUPIN_TO_THRUVIA_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_THRUVIA_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTVIA_TO_TESTVIA_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "THRUPIN_TO_THRUPIN_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_TESTVIA_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_BBV_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_SMDPIN_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTPIN_TO_TESTVIA_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_SHAPE_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_MVIA_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SHAPE_TO_THRUVIA_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "HOLE_TO_LINE_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_SHAPE_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_TESTPIN_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SMDPIN_TO_TESTVIA_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_LINE_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "THRUPIN_TO_SHAPE_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_THRUVIA_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_LINE_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_TESTPIN_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "HOLE_TO_PIN_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_MVIA_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_THRUVIA_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_BBV_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "THRUPIN_TO_SMDPIN_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SMDPIN_TO_THRUVIA_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_THRUVIA_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_LINE_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_LINE_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "MIN_BVIA_GAP" "5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_THRUPIN_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "HOLE_TO_SHAPE_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SMDPIN_TO_SMDPIN_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_TESTVIA_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTVIA_TO_THRUPIN_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_BBV_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_TESTVIA_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "HOLE_TO_VIA_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_BONDPAD_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "HOLE_TO_HOLE_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "THRUPIN_TO_BONDPAD_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SHAPE_TO_SMDPIN_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_SHAPE_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_SMDPIN_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SHAPE_TO_TESTPIN_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SMDPIN_TO_BONDPAD_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_THRUPIN_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_SHAPE_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_SMDPIN_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_TESTPIN_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTPIN_TO_TESTPIN_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_TESTVIA_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTVIA_TO_THRUVIA_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_TESTPIN_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_BONDPAD_DIFFP_SPC" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTPIN_TO_THRUVIA_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SMDPIN_TO_TESTPIN_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SHAPE_TO_SHAPE_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_THRUPIN_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "THRUVIA_TO_THRUVIA_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+			)
+			( sameNetSpacingCSet "DEFAULT"
+				( attribute "SN_MVIA_TO_TESTVIA_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SHAPE_TO_TESTVIA_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_TESTPIN_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SHAPE_TO_TESTPIN_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTVIA_TO_THRUPIN_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_THRUPIN_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_THRUPIN_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTPIN_TO_THRUPIN_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_BONDPAD_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_LINE_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_THRUVIA_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_SHAPE_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_HOLE_TO_SHAPE_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SHAPE_TO_THRUVIA_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTVIA_TO_TESTVIA_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUPIN_TO_THRUPIN_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SAME_NET" "TRUE,TRUE"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_TESTVIA_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_TESTVIA_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_MVIA_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTPIN_TO_TESTVIA_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUPIN_TO_SHAPE_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_SMDPIN_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_TESTPIN_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTPIN_TO_TESTPIN_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_MVIA_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_SHAPE_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_LINE_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SMDPIN_TO_TESTPIN_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_TESTPIN_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTVIA_TO_THRUVIA_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_BBV_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_THRUVIA_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_THRUVIA_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_LINE_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTPIN_TO_THRUVIA_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_HOLE_TO_LINE_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_SHAPE_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUVIA_TO_THRUVIA_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SMDPIN_TO_THRUVIA_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUPIN_TO_THRUVIA_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SMDPIN_TO_SMDPIN_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_BBV_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_HOLE_TO_PIN_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_BBV_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SMDPIN_TO_TESTVIA_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_TESTVIA_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_SMDPIN_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_LINE_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_SHAPE_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SMDPIN_TO_BONDPAD_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUPIN_TO_BONDPAD_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SHAPE_TO_SMDPIN_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_SMDPIN_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUPIN_TO_SMDPIN_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_THRUPIN_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_THRUVIA_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_HOLE_TO_VIA_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_HOLE_TO_HOLE_SPACING" "8.000,8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SHAPE_TO_SHAPE_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_TESTPIN_SPACING" "5.000,5.000"
+					( Origin gBackEnd )
+				)
+			)
+			( signal "5V"
+				( physicalCSetRef "POWER" )
+				( objectStatus "@board_main.schematic1(sch_1):\5v\" )
+			)
+			( signal "3V3_A"
+				( physicalCSetRef "POWER" )
+				( objectStatus "@board_main.schematic1(sch_1):\3v3_a\" )
+			)
+			( signal "VCC_BAT"
+				( physicalCSetRef "POWER" )
+				( objectStatus "@board_main.schematic1(sch_1):vcc_bat" )
+			)
+			( gate "F138"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins30065@discrete.\cap np.normal\(chips)" )
+			)
+			( gate "F137"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins30049@discrete.\cap np.normal\(chips)" )
+			)
+			( gate "F136"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins389431@discrete.\cap np.normal\(chips)" )
+			)
+			( gate "F135"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins28388@discrete.\cap np.normal\(chips)" )
+			)
+			( gate "F134"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins28412@discrete.\cap np.normal\(chips)" )
+			)
+			( gate "F133"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins389403@discrete.\cap np.normal\(chips)" )
+			)
+			( gate "F132"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins21003@discrete.\cap np.normal\(chips)" )
+			)
+			( gate "F131"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins21355@discrete.\cap np.normal\(chips)" )
+			)
+			( gate "F130"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins21491@discrete.\cap np.normal\(chips)" )
+			)
+			( gate "F129"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins21035@discrete.\cap np.normal\(chips)" )
+			)
+			( gate "F105"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins29967@myorcad.\c-np.normal\(chips)" )
+			)
+			( gate "F104"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins389333@myorcad.\c-np.normal\(chips)" )
+			)
+			( gate "F103"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins163633@myorcad.\c-np.normal\(chips)" )
+			)
+			( gate "F102"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins20173@discrete.\cap np.normal\(chips)" )
+			)
+			( gate "F101"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins20247@discrete.\cap np.normal\(chips)" )
+			)
+			( gate "F100"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins380646@discrete.\cap np.normal\(chips)" )
+			)
+			( gate "F99"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins380666@discrete.\cap np.normal\(chips)" )
+			)
+			( gate "F98"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins21315@discrete.\cap np.normal\(chips)" )
+			)
+			( gate "F97"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins21555@discrete.\cap np.normal\(chips)" )
+			)
+			( gate "F96"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins20467@discrete.\cap np.normal\(chips)" )
+			)
+			( gate "F94"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins20379@discrete.\cap np.normal\(chips)" )
+			)
+			( gate "F93"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins21193@discrete.\cap np.normal\(chips)" )
+			)
+			( gate "F92"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins21133@discrete.\cap np.normal\(chips)" )
+			)
+			( gate "F91"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins21227@discrete.\cap np.normal\(chips)" )
+			)
+			( gate "F90"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins20971@discrete.\cap np.normal\(chips)" )
+			)
+			( gate "F89"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins36088@myorcad.\cap_100uf_tant_6.3v_3528-21.normal\(chips)" )
+			)
+			( gate "F84"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins339103@myorcad.\cap_0.001_x7r_50v_5%_0402.normal\(chips)" )
+			)
+			( gate "F83"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins339243@myorcad.\cap_0.001_x7r_50v_5%_0402.normal\(chips)" )
+			)
+			( gate "F82"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins339275@myorcad.\cap_0.001_x7r_50v_5%_0402.normal\(chips)" )
+			)
+			( gate "F81"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins339291@myorcad.\cap_0.001_x7r_50v_5%_0402.normal\(chips)" )
+			)
+			( gate "F80"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins338963@myorcad.\cap_0.001_x7r_50v_5%_0402.normal\(chips)" )
+			)
+			( gate "F79"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins338979@myorcad.\cap_0.001_x7r_50v_5%_0402.normal\(chips)" )
+			)
+			( gate "F78"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins357157@myorcad.\cap_0.001_x7r_50v_5%_0402.normal\(chips)" )
+			)
+			( gate "F77"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins357183@myorcad.\cap_0.001_x7r_50v_5%_0402.normal\(chips)" )
+			)
+			( gate "F75"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins166830@myorcad.\led_ltst-c150gkt.normal\(chips)" )
+			)
+			( gate "F74"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins166858@myorcad.\led_ltst-c150gkt.normal\(chips)" )
+			)
+			( gate "F73"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins166886@myorcad.\led_ltst-c150gkt.normal\(chips)" )
+			)
+			( gate "F72"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins166914@myorcad.\led_ltst-c150gkt.normal\(chips)" )
+			)
+			( gate "F71"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins166942@myorcad.\led_ltst-c150gkt.normal\(chips)" )
+			)
+			( gate "F70"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins167070@myorcad.\led_ltst-c150gkt.normal\(chips)" )
+			)
+			( gate "F69"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins167098@myorcad.\led_ltst-c150gkt.normal\(chips)" )
+			)
+			( gate "F68"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins166684@myorcad.\led_ltst-c150gkt.normal\(chips)" )
+			)
+			( gate "F67"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins166718@myorcad.\led_ltst-c150gkt.normal\(chips)" )
+			)
+			( gate "F66"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins166746@myorcad.\led_ltst-c150gkt.normal\(chips)" )
+			)
+			( gate "F65"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins166774@myorcad.\led_ltst-c150gkt.normal\(chips)" )
+			)
+			( gate "F64"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins166802@myorcad.\led_ltst-c150gkt.normal\(chips)" )
+			)
+			( gate "F63"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins64459@myorcad.\sma_ss34.normal\(chips)" )
+			)
+			( gate "F62"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins414629@myorcad.\sma_ss34.normal\(chips)" )
+			)
+			( gate "F61"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins240855@myorcad.\hdr_8p.normal\(chips)" )
+			)
+			( gate "F59"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins64861@connector.\con4.normal\(chips)" )
+			)
+			( gate "F57"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins20219@discrete.\inductor.normal\(chips)" )
+			)
+			( gate "F56"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins20293@discrete.\inductor.normal\(chips)" )
+			)
+			( gate "F52"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins267551@myorcad.\nmos.normal\(chips)" )
+			)
+			( gate "F51"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins369884@myorcad.\nmos.normal\(chips)" )
+			)
+			( gate "F50"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins148521@myorcad.\pmos.normal\(chips)" )
+			)
+			( gate "F49"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins250442@myorcad.\pmos.normal\(chips)" )
+			)
+			( gate "F4"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins20763@myorcad.\nrf51822.normal\(chips)" )
+			)
+			( gate "F3"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins380622@usb_socket_v3_20161127.\ztb_0.normal\(chips)" )
+			)
+			( gate "F2"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins31447@xtal.\qzs32768.normal\(chips)" )
+			)
+			( gate "F128"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins357577@myorcad.\cap_0.001_x7r_50v_5%_0402.normal\(chips)" )
+			)
+			( gate "F127"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins357769@myorcad.\cap_0.001_x7r_50v_5%_0402.normal\(chips)" )
+			)
+			( gate "F126"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins357925@myorcad.\cap_0.001_x7r_50v_5%_0402.normal\(chips)" )
+			)
+			( gate "F122"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins155730@myorcad.\cap_0.001_x7r_50v_5%_0402.normal\(chips)" )
+			)
+			( gate "F121"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins148991@myorcad.\cap_0.001_x7r_50v_5%_0402.normal\(chips)" )
+			)
+			( gate "F125"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins357603@myorcad.\cap_0.001_x7r_50v_5%_0402.normal\(chips)" )
+			)
+			( gate "F124"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins357785@myorcad.\cap_0.001_x7r_50v_5%_0402.normal\(chips)" )
+			)
+			( gate "F123"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins357889@myorcad.\cap_0.001_x7r_50v_5%_0402.normal\(chips)" )
+			)
+			( gate "F120"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins411555@myorcad.\cap_0.001_x7r_50v_5%_0402.normal\(chips)" )
+			)
+			( gate "F119"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins414655@myorcad.\cap_0.001_x7r_50v_5%_0402.normal\(chips)" )
+			)
+			( gate "F118"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins339087@myorcad.\cap_0.001_x7r_50v_5%_0402.normal\(chips)" )
+			)
+			( gate "F117"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins414808@myorcad.\cap_0.001_x7r_50v_5%_0402.normal\(chips)" )
+			)
+			( gate "F115"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins148897@myorcad.\cap_0.001_x7r_50v_5%_0402.normal\(chips)" )
+			)
+			( gate "F114"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins339307@myorcad.\cap_0.001_x7r_50v_5%_0402.normal\(chips)" )
+			)
+			( gate "F113"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins339323@myorcad.\cap_0.001_x7r_50v_5%_0402.normal\(chips)" )
+			)
+			( gate "F116"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins418618@myorcad.\cap_0.001_x7r_50v_5%_0402.normal\(chips)" )
+			)
+			( gate "F112"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins339649@myorcad.\cap_0.001_x7r_50v_5%_0402.normal\(chips)" )
+			)
+			( gate "F111"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins355638@myorcad.\cap_0.001_x7r_50v_5%_0402.normal\(chips)" )
+			)
+			( gate "F110"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins355664@myorcad.\cap_0.001_x7r_50v_5%_0402.normal\(chips)" )
+			)
+			( gate "F109"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins355855@myorcad.\cap_0.001_x7r_50v_5%_0402.normal\(chips)" )
+			)
+			( gate "F108"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins355881@myorcad.\cap_0.001_x7r_50v_5%_0402.normal\(chips)" )
+			)
+			( gate "F107"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins356799@myorcad.\cap_0.001_x7r_50v_5%_0402.normal\(chips)" )
+			)
+			( gate "F106"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins356825@myorcad.\cap_0.001_x7r_50v_5%_0402.normal\(chips)" )
+			)
+			( gate "F38"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins338803@myorcad.\res_10k_1/16w_1%_0402.normal\(chips)" )
+			)
+			( gate "F37"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins418961@myorcad.\res_10k_1/16w_1%_0402.normal\(chips)" )
+			)
+			( gate "F35"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins414681@myorcad.\res_10k_1/16w_1%_0402.normal\(chips)" )
+			)
+			( gate "F34"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins414756@myorcad.\res_10k_1/16w_1%_0402.normal\(chips)" )
+			)
+			( gate "F33"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins414782@myorcad.\res_10k_1/16w_1%_0402.normal\(chips)" )
+			)
+			( gate "F30"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins28900@myorcad.\res_10k_1/16w_1%_0402.normal\(chips)" )
+			)
+			( gate "F29"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins28916@myorcad.\res_10k_1/16w_1%_0402.normal\(chips)" )
+			)
+			( gate "F28"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins28936@myorcad.\res_10k_1/16w_1%_0402.normal\(chips)" )
+			)
+			( gate "F27"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins28968@myorcad.\res_10k_1/16w_1%_0402.normal\(chips)" )
+			)
+			( gate "F26"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins28984@myorcad.\res_10k_1/16w_1%_0402.normal\(chips)" )
+			)
+			( gate "F25"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins29000@myorcad.\res_10k_1/16w_1%_0402.normal\(chips)" )
+			)
+			( gate "F24"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins29016@myorcad.\res_10k_1/16w_1%_0402.normal\(chips)" )
+			)
+			( gate "F23"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins29032@myorcad.\res_10k_1/16w_1%_0402.normal\(chips)" )
+			)
+			( gate "F22"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins29048@myorcad.\res_10k_1/16w_1%_0402.normal\(chips)" )
+			)
+			( gate "F21"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins29064@myorcad.\res_10k_1/16w_1%_0402.normal\(chips)" )
+			)
+			( gate "F20"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins29080@myorcad.\res_10k_1/16w_1%_0402.normal\(chips)" )
+			)
+			( gate "F19"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins29096@myorcad.\res_10k_1/16w_1%_0402.normal\(chips)" )
+			)
+			( gate "F42"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins339339@myorcad.\res_10k_1/16w_1%_0402.normal\(chips)" )
+			)
+			( gate "F41"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins339355@myorcad.\res_10k_1/16w_1%_0402.normal\(chips)" )
+			)
+			( gate "F40"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins152149@myorcad.\res_10k_1/16w_1%_0402.normal\(chips)" )
+			)
+			( gate "F95"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins20503@discrete.\cap np.normal\(chips)" )
+			)
+			( gate "F48"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins224074@myorcad.\res_10k_1/16w_1%_0402.normal\(chips)" )
+			)
+			( gate "F47"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins376205@myorcad.\res_10k_1/16w_1%_0402.normal\(chips)" )
+			)
+			( gate "F46"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins155698@myorcad.\res_10k_1/16w_1%_0402.normal\(chips)" )
+			)
+			( gate "F45"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins155714@myorcad.\res_10k_1/16w_1%_0402.normal\(chips)" )
+			)
+			( gate "F44"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins251594@myorcad.\res_10k_1/16w_1%_0402.normal\(chips)" )
+			)
+			( gate "F43"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins268013@myorcad.\res_10k_1/16w_1%_0402.normal\(chips)" )
+			)
+			( gate "F15"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins20575@\smd-r-0402-1810\.\51kr2.normal\(chips)" )
+			)
+			( gate "F14"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins61111@myorcad.\res_10k_1/16w_1%_0402.normal\(chips)" )
+			)
+			( gate "F13"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins61137@myorcad.\res_10k_1/16w_1%_0402.normal\(chips)" )
+			)
+			( gate "F0"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins338935@myorcad.\xtal.normal\(chips)" )
+			)
+			( gate "F140"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins339215@myorcad.\ind_2.2uh_2.6a_10%_smd.normal\(chips)" )
+			)
+			( gate "F139"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins339229@myorcad.\ind_2.2uh_2.6a_10%_smd.normal\(chips)" )
+			)
+			( gate "F39"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins339459@myorcad.\res_10k_1/16w_1%_0402.normal\(chips)" )
+			)
+			( gate "F36"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins339071@myorcad.\res_10k_1/16w_1%_0402.normal\(chips)" )
+			)
+			( gate "F7"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins339137@myorcad.\nz3801-ab.normal\(chips)" )
+			)
+			( gate "F58"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins240356@myorcad.\smd_14pc.normal\(chips)" )
+			)
+			( gate "F154"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins172257@myorcad.\testpin.normal\(chips)" )
+			)
+			( gate "F159"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins172327@myorcad.\testpin.normal\(chips)" )
+			)
+			( gate "F158"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins172367@myorcad.\testpin.normal\(chips)" )
+			)
+			( gate "F155"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins172788@myorcad.\testpin.normal\(chips)" )
+			)
+			( gate "F168"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins172810@myorcad.\testpin.normal\(chips)" )
+			)
+			( gate "F169"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins172832@myorcad.\testpin.normal\(chips)" )
+			)
+			( gate "F170"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins172854@myorcad.\testpin.normal\(chips)" )
+			)
+			( gate "F143"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins172876@myorcad.\testpin.normal\(chips)" )
+			)
+			( gate "F142"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins172898@myorcad.\testpin.normal\(chips)" )
+			)
+			( gate "F141"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins172930@myorcad.\testpin.normal\(chips)" )
+			)
+			( gate "F165"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins172974@myorcad.\testpin.normal\(chips)" )
+			)
+			( gate "F156"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins175465@myorcad.\testpin.normal\(chips)" )
+			)
+			( gate "F157"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins175500@myorcad.\testpin.normal\(chips)" )
+			)
+			( gate "F162"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins175522@myorcad.\testpin.normal\(chips)" )
+			)
+			( gate "F148"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins175875@myorcad.\testpin.normal\(chips)" )
+			)
+			( gate "F152"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins175897@myorcad.\testpin.normal\(chips)" )
+			)
+			( gate "F150"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins176461@myorcad.\testpin.normal\(chips)" )
+			)
+			( gate "F149"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins176483@myorcad.\testpin.normal\(chips)" )
+			)
+			( gate "F161"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins177634@myorcad.\testpin.normal\(chips)" )
+			)
+			( gate "F160"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins177656@myorcad.\testpin.normal\(chips)" )
+			)
+			( gate "F151"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins177678@myorcad.\testpin.normal\(chips)" )
+			)
+			( gate "F147"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins177760@myorcad.\testpin.normal\(chips)" )
+			)
+			( gate "F146"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins177782@myorcad.\testpin.normal\(chips)" )
+			)
+			( gate "F145"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins177804@myorcad.\testpin.normal\(chips)" )
+			)
+			( gate "F144"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins171954@myorcad.\testpin.normal\(chips)" )
+			)
+			( gate "F173"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins177931@myorcad.\testpin.normal\(chips)" )
+			)
+			( gate "F172"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins177967@myorcad.\testpin.normal\(chips)" )
+			)
+			( gate "F175"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins178035@myorcad.\testpin.normal\(chips)" )
+			)
+			( gate "F174"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins178303@myorcad.\testpin.normal\(chips)" )
+			)
+			( gate "F176"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins178337@myorcad.\testpin.normal\(chips)" )
+			)
+			( gate "F153"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins171976@myorcad.\testpin.normal\(chips)" )
+			)
+			( gate "F166"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins171998@myorcad.\testpin.normal\(chips)" )
+			)
+			( gate "F167"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins172020@myorcad.\testpin.normal\(chips)" )
+			)
+			( gate "F164"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins172128@myorcad.\testpin.normal\(chips)" )
+			)
+			( gate "F163"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins172164@myorcad.\testpin.normal\(chips)" )
+			)
+			( gate "F171"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins60184@myorcad.\testpin.normal\(chips)" )
+			)
+			( gate "F8"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins71347@myorcad.\25q80.normal\(chips)" )
+			)
+			( gate "F11"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins29999@myorcad.\sc662k-3.3v.normal\(chips)" )
+			)
+			( gate "F10"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins389365@myorcad.\sc662k-3.3v.normal\(chips)" )
+			)
+			( gate "F12"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins143075@myorcad.\res_10k_1/16w_1%_0402.normal\(chips)" )
+			)
+			( gate "F32"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins28228@myorcad.\res_10k_1/16w_1%_0402.normal\(chips)" )
+			)
+			( gate "F31"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins28244@myorcad.\res_10k_1/16w_1%_0402.normal\(chips)" )
+			)
+			( gate "F60"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins53030@myorcad.\con2_smd_c.normal\(chips)" )
+			)
+			( gate "TF-214"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins97713@myorcad.\mark.normal\(chips)" )
+			)
+			( gate "TF-213"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins97727@myorcad.\mark.normal\(chips)" )
+			)
+			( gate "TF-212"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins97741@myorcad.\mark.normal\(chips)" )
+			)
+			( gate "TF-203"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins81351@myorcad.\mark.normal\(chips)" )
+			)
+			( gate "TF-202"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins81365@myorcad.\mark.normal\(chips)" )
+			)
+			( gate "TF-201"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins81379@myorcad.\mark.normal\(chips)" )
+			)
+			( gate "F9"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins31419@myorcad.\pcf8563_sop8.normal\(chips)" )
+			)
+			( gate "F76"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins57453@myorcad.\smd_6pc_1_25.normal\(chips)" )
+			)
+			( gate "F88"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins31463@myorcad.\cap_0402_0.1uf_x5r_10v.normal\(chips)" )
+			)
+			( gate "F86"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins71381@myorcad.\cap_0402_0.1uf_x5r_10v.normal\(chips)" )
+			)
+			( gate "F85"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins249921@myorcad.\cap_0402_0.1uf_x5r_10v.normal\(chips)" )
+			)
+			( gate "F87"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins31537@myorcad.\cap_0402_0.1uf_x5r_10v.normal\(chips)" )
+			)
+			( gate "F55"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins21209@discrete.\inductor.normal\(chips)" )
+			)
+			( gate "F54"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins21115@discrete.\inductor.normal\(chips)" )
+			)
+			( gate "F53"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins21065@discrete.\inductor.normal\(chips)" )
+			)
+			( gate "F18"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins20487@\smd-r-0402-1810\.\51kr2.normal\(chips)" )
+			)
+			( gate "F17"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins20439@\smd-r-0402-1810\.\51kr2.normal\(chips)" )
+			)
+			( gate "F16"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins20359@\smd-r-0402-1810\.\51kr2.normal\(chips)" )
+			)
+			( gate "F6"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins28296@myorcad.\74hc595_tssop16.normal\(chips)" )
+			)
+			( gate "F5"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins28340@myorcad.\74hc595_tssop16.normal\(chips)" )
+			)
+			( gate "F1"
+				( attribute "PRIM_FILE" ".\pstchip.dat"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@board_main.schematic1(sch_1):ins21295@myorcad.\xtal.normal\(chips)" )
+			)
+			( part "C1"
+			)
+			( part "C2"
+			)
+			( part "C4"
+			)
+			( part "C40"
+			)
+			( part "C41"
+			)
+			( part "C5"
+			)
+			( part "C51"
+			)
+			( part "C52"
+			)
+			( part "C57"
+			)
+			( part "C59"
+			)
+			( part "C3"
+			)
+			( part "C6"
+			)
+			( part "C71"
+			)
+			( part "C42"
+			)
+			( part "C49"
+			)
+			( part "C43"
+			)
+			( part "C44"
+			)
+			( part "C45"
+			)
+			( part "C46"
+			)
+			( part "C47"
+			)
+			( part "C50"
+			)
+			( part "C53"
+			)
+			( part "C54"
+			)
+			( part "C55"
+			)
+			( part "C58"
+			)
+			( part "C61"
+			)
+			( part "C82"
+			)
+			( part "C83"
+			)
+			( part "C85"
+			)
+			( part "C86"
+			)
+			( part "C89"
+			)
+			( part "C90"
+			)
+			( part "C98"
+			)
+			( part "C99"
+			)
+			( part "D10"
+			)
+			( part "D11"
+			)
+			( part "D12"
+			)
+			( part "D13"
+			)
+			( part "D14"
+			)
+			( part "D15"
+			)
+			( part "D16"
+			)
+			( part "D5"
+			)
+			( part "D6"
+			)
+			( part "D7"
+			)
+			( part "D8"
+			)
+			( part "D9"
+			)
+			( part "D17"
+			)
+			( part "D18"
+			)
+			( part "J10"
+			)
+			( part "J7"
+			)
+			( part "L1"
+			)
+			( part "L2"
+			)
+			( part "Q10"
+			)
+			( part "Q3"
+			)
+			( part "Q4"
+			)
+			( part "Q8"
+			)
+			( part "U9"
+			)
+			( part "X1"
+			)
+			( part "X2"
+			)
+			( part "C101"
+			)
+			( part "C103"
+			)
+			( part "C109"
+			)
+			( part "C67"
+			)
+			( part "C70"
+			)
+			( part "C102"
+			)
+			( part "C104"
+			)
+			( part "C108"
+			)
+			( part "C110"
+			)
+			( part "C111"
+			)
+			( part "C81"
+			)
+			( part "C112"
+			)
+			( part "C69"
+			)
+			( part "C87"
+			)
+			( part "C88"
+			)
+			( part "C113"
+			)
+			( part "C91"
+			)
+			( part "C92"
+			)
+			( part "C93"
+			)
+			( part "C94"
+			)
+			( part "C95"
+			)
+			( part "C96"
+			)
+			( part "C97"
+			)
+			( part "R121"
+			)
+			( part "R132"
+			)
+			( part "R129"
+			)
+			( part "R130"
+			)
+			( part "R131"
+			)
+			( part "R38"
+			)
+			( part "R40"
+			)
+			( part "R42"
+			)
+			( part "R44"
+			)
+			( part "R46"
+			)
+			( part "R48"
+			)
+			( part "R50"
+			)
+			( part "R52"
+			)
+			( part "R54"
+			)
+			( part "R56"
+			)
+			( part "R58"
+			)
+			( part "R60"
+			)
+			( part "R118"
+			)
+			( part "R119"
+			)
+			( part "R94"
+			)
+			( part "C48"
+			)
+			( part "R111"
+			)
+			( part "R128"
+			)
+			( part "R73"
+			)
+			( part "R74"
+			)
+			( part "R115"
+			)
+			( part "R117"
+			)
+			( part "R68"
+			)
+			( part "R70"
+			)
+			( part "R71"
+			)
+			( part "Y3"
+			)
+			( part "ANT2"
+			)
+			( part "ANT3"
+			)
+			( part "R120"
+			)
+			( part "R123"
+			)
+			( part "U14"
+			)
+			( part "J9"
+			)
+			( part "RTC_INT"
+			)
+			( part "MOTOL"
+			)
+			( part "MOTOR"
+			)
+			( part "REED"
+			)
+			( part "DO_OS"
+			)
+			( part "DO_OP"
+			)
+			( part "DO_CL"
+			)
+			( part "VC_BS"
+			)
+			( part "VC_CR"
+			)
+			( part "VC_CS"
+			)
+			( part "GND"
+			)
+			( part "RC-"
+			)
+			( part "RC+"
+			)
+			( part "KEY_INT"
+			)
+			( part "SWD_V"
+			)
+			( part "SDW_D"
+			)
+			( part "SWD_C"
+			)
+			( part "SWD_G"
+			)
+			( part "MISO"
+			)
+			( part "MOSI"
+			)
+			( part "SPICLK"
+			)
+			( part "TP37"
+			)
+			( part "TP38"
+			)
+			( part "TP39"
+			)
+			( part "TXD"
+			)
+			( part "5V"
+			)
+			( part "BAT"
+			)
+			( part "3V3M"
+			)
+			( part "3V3R"
+			)
+			( part "3V3A"
+			)
+			( part "RXD"
+			)
+			( part "FG_PWR"
+			)
+			( part "FG_INT"
+			)
+			( part "IIC_SCL"
+			)
+			( part "IIC_SDA"
+			)
+			( part "DCC"
+			)
+			( part "U11"
+			)
+			( part "U1"
+			)
+			( part "U2"
+			)
+			( part "R90"
+			)
+			( part "R36"
+			)
+			( part "R37"
+			)
+			( part "J6"
+			)
+			( part "MR4"
+			)
+			( part "MR5"
+			)
+			( part "MR6"
+			)
+			( part "MR1"
+			)
+			( part "MR2"
+			)
+			( part "MR3"
+			)
+			( part "U10"
+			)
+			( part "CON1"
+			)
+			( part "C65"
+			)
+			( part "C68"
+			)
+			( part "C74"
+			)
+			( part "C66"
+			)
+			( part "L3"
+			)
+			( part "L4"
+			)
+			( part "L5"
+			)
+			( part "R65"
+			)
+			( part "R67"
+			)
+			( part "R66"
+			)
+			( part "U7"
+			)
+			( part "U8"
+			)
+			( part "Y2"
+			)
+			( region "MCU"
+				( attribute "MIN_LINE_WIDTH" "8.000"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_TESTVIA_SPACING" "6.000"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_SMDPIN_SPACING" "6.000"
+					( Origin gBackEnd )
+				)
+				( attribute "HOLE_TO_LINE_SPACING" "6.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SMDPIN_TO_TESTVIA_SPACING" "6.000"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_LINE_SPACING" "6.000"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_THRUVIA_SPACING" "6.000"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_LINE_SPACING" "6.000"
+					( Origin gBackEnd )
+				)
+				( attribute "THRUPIN_TO_SMDPIN_SPACING" "6.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SMDPIN_TO_THRUVIA_SPACING" "6.000"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_LINE_SPACING" "6.000"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_LINE_SPACING" "6.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SMDPIN_TO_SMDPIN_SPACING" "6.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SHAPE_TO_SMDPIN_SPACING" "6.000"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_SHAPE_SPACING" "6.000"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_SMDPIN_SPACING" "6.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SMDPIN_TO_BONDPAD_SPACING" "6.000"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_SMDPIN_SPACING" "6.000"
+					( Origin gBackEnd )
+				)
+				( attribute "MAX_LINE_WIDTH" "30.000"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_TESTPIN_SPACING" "6.000"
+					( Origin gBackEnd )
+				)
+				( attribute "SMDPIN_TO_TESTPIN_SPACING" "6.000"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_THRUPIN_SPACING" "6.000"
+					( Origin gBackEnd )
+				)
+			)
+		)
+	)
+)

@@ -1,0 +1,61 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Padstack                                                 )
+(                                                                     )
+(    Drawing          : SIP_4_2R0.dra                                 )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Fri Feb 02 19:22:22 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Fri Feb 02 19:22:22 2018				Page     1
+
+
+------ Pad Stack Refresh Options ------
+
+Input design = 'E:/Cadence_Lib/PCB_LIB/symbol/SIP_4_2R0.dra'
+Output design = ''
+Reset symbol text and size locations = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/Cadence/SPB_16.6/share/local/pcb/symbols 
+           D:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
+           D:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+           E:/Cadence_Lib/PCB_LIB/pad/ 
+           E:/Cadence_Lib/PCB_LIB/symbol/ 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/Cadence/SPB_16.6/share/local/pcb/padstacks 
+           D:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
+           D:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+           E:/Cadence_Lib/PCB_LIB/pad/ 
+
+
+------ Pad Stack Refresh Messages ------
+
+'THQK1R30C1R65D1R00'  pad stack refresh starting.
+
+     'THQK1R30C1R65D1R00'  pad stack refreshed successfully.
+     
+'THQS1R30C1R65D1R00'  pad stack refresh starting.
+
+     'THQS1R30C1R65D1R00'  pad stack refreshed successfully.
+     
+'THC1R60D0R90'  pad stack refresh starting.
+
+     'THC1R60D0R90'  pad stack refreshed successfully.
+     
+'THS1R60D0R90'  pad stack refresh starting.
+
+     'THS1R60D0R90'  pad stack refreshed successfully.
+     
+Completed refreshing all pad stacks successfully.
